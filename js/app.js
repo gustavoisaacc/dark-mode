@@ -10,7 +10,7 @@ if(window.matchMedia('(prefers-color-scheme: dark)').matches){
 checkbox.addEventListener('change', function(event){
     console.log(this.checked)
     if(this.checked){
-        document.body.classList.rewmove('is-light-mode')
+        document.body.classList.remove('is-light-mode')
         document.body.classList.add('is-dark-mode')
 
     }else{
