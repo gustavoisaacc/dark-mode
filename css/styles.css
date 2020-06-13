@@ -253,7 +253,7 @@ media de 768
         grid-template-columns: 1fr 200px;
     }
 }
-.is-dark-model{
+.is-dark-mode{
     --cardGray: #252b43;
     --baseBackground: #1d2029;
     --baseColor: white;
@@ -264,7 +264,7 @@ media de 768
     --switch: linear-gradient(to right, #37ce8f 0%, #bcecd8 100% );
 }
 
-.is-light-model{
+.is-light-mode{
     --gray: #5f616d;
     --cardGray: #f0f3fa;
     --lightGray: #f8f9fe;
